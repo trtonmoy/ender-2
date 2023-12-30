@@ -1,0 +1,123 @@
+/* ************************************************************** */
+/* concept                                                        */
+/* ************************************************************** */
+section {
+  position: relative;
+  display: block;
+  width: 100%;
+  line-height: 0;
+  overflow: hidden;
+}
+section::before {
+  content: "";
+  display: block;
+}
+section::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .6);
+}
+section>img:nth-child(1) {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: 0 auto;
+}
+section>img.description {
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: -25%;
+  z-index: 1;
+  opacity: 0;
+  transition: bottom 1.5s, opacity 1.5s;
+}
+section>img.view_txt {
+  bottom: 0;
+  opacity: 1;
+}
+
+#section_1 {
+  margin-top: 3.5em;
+}
+
+/* pc: */
+@media all and (min-width: 1370px) {}
+/* tab: */
+@media all and (max-width: 1369px) and (min-width: 768px) {
+  section>img:nth-child(2) {
+    transform: scale(1.4);
+  }
+}
+/* pc-tab */
+@media all and (min-width: 768px) {
+  section::before {
+    padding-top: 44.3%;
+  }
+  section>img:nth-child(1) {
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+  section>img:nth-child(2) {
+    width: 50%;
+    margin: auto 0;
+  }
+  section>img:nth-child(3) {
+    display: none;
+  }
+  #section_1>img:nth-child(2) {
+    left: 24%;
+  }
+  #section_2>img:nth-child(2) {
+    left: 39.5%;
+  }
+  #section_3>img:nth-child(2) {
+    left: 23%;
+  }
+  #section_4>img:nth-child(2) {
+    left: 38%;
+  }
+  #section_5>img:nth-child(2) {
+    left: 22.5%;
+  }
+}
+/* tab-phone */
+@media all and (max-width: 767px) {
+  section::before {
+    padding-top: 150%;
+  }
+  section>img:nth-child(1) {
+    top: 0 !important;
+    height: 100%;
+  }
+  #section_1>img:nth-child(1) {
+    right: -60%;
+  }
+  #section_2>img:nth-child(1) {
+    left: -50%;
+  }
+  #section_3>img:nth-child(1) {
+    left: -75%;
+  }
+  #section_4>img:nth-child(1) {
+    left: -45%;
+  }
+  #section_5>img:nth-child(1) {
+    left: -50%;
+  }
+  section>img:nth-child(2) {
+    display: none;
+  }
+  section>img:nth-child(3) {
+    left: 0;
+    right: 0;
+    width: 95%;
+    margin: auto;
+  }
+}

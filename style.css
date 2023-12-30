@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap");
+
+.banner_content {
+  z-index: 9999999;
+  text-align: left;
+}
+.abt_content {
+  z-index: 9999999;
+  text-align: right;
+}
+.sec_1,
+.sec_2,
+.sec_3,
+.sec_4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999999999;
+}
+.banner_content h2 {
+  font-size: 70px;
+  font-weight: 800;
+  margin: 15px 0;
+}
+
+.banner_content p {
+  font-size: 20px;
+  color: #dda53c;
+  margin: 40px 0;
+  width: 98%;
+  max-width: 700px;
+  line-height: 38px;
+}
+.social_btn {
+  margin: 30px 5px;
+}
+
+.social_btn a {
+  text-decoration: none;
+  color: #dda53c;
+  border: 1px solid #dda53c;
+  border-radius: 30px;
+  padding: 16px 35px;
+  display: inline-block;
+}
+
+/* about section */
+
+.abt_content h2 {
+  font-size: 70px;
+  font-weight: 800;
+  margin: 15px 0;
+}
+
+.abt_content p {
+  font-size: 20px;
+  color: #dda53c;
+  margin: 40px 0;
+  width: 98%;
+  max-width: 700px;
+  line-height: 38px;
+}
+.social_btn {
+  margin: 30px 5px;
+}
+
+.social_btn a {
+  text-decoration: none;
+  color: #dda53c;
+  border: 1px solid #dda53c;
+  border-radius: 30px;
+  padding: 16px 35px;
+  display: inline-block;
+  font-family: "Marcellus SC", serif;
+}
+
+/* community section */
+
+.sec_5 {
+  background-image: linear-gradient(#000000c6, #000000d4),
+    url(/static/img/concept/scene_5.jpg);
+
+  padding: 70px 0 100px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 93%;
+  max-width: 900px;
+}
+.social_card {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  color: #dda53c;
+  font-family: "Marcellus SC", serif;
+  font-size: 22px;
+}
+
+.separator {
+  display: none;
+  margin: 25px 0 0 0;
+}
+
+.footer_icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social_icon a {
+  text-decoration: none;
+  color: #dda53c;
+  font-size: 22px;
+  margin: 7px;
+}
+
+.logo_txt {
+  font-size: 90px;
+  line-height: 35px;
+  color: #fff;
+  text-transform: uppercase;
+  width: fit-content;
+}
+@media screen and (max-width: 768px) {
+  .separator {
+    display: block;
+  }
+  .title {
+    font-size: 40px !important;
+  }
+  .logo_txt {
+    font-size: 56px;
+    line-height: 35px;
+    color: #fff;
+    text-transform: uppercase;
+    width: fit-content;
+  }
+}
