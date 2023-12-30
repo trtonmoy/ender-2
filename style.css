@@ -136,4 +136,18 @@
     text-transform: uppercase;
     width: fit-content;
   }
+  .logo-img {
+    width: 90%;
+  }
+
+  .banner_content {
+    padding: 0 10px;
+  }
+  .abt_content {
+    padding: 0 10px;
+  }
+
+  .footer_icon {
+    padding: 0 10px;
+  }
 }
