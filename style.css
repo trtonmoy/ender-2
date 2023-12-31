@@ -141,6 +141,9 @@ body {
   .main_logo {
     width: 140px;
   }
+  section#section_4 {
+    padding-right: 60px;
+  }
   .logo_img {
     width: 250px;
     height: 140px;
