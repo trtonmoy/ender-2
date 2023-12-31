@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap");
-
+body {
+  font-family: "Marcellus SC", serif !important;
+}
 .banner_content {
   z-index: 9999999;
   text-align: left;
@@ -72,6 +74,9 @@
   padding: 16px 35px;
   display: inline-block;
   font-family: "Marcellus SC", serif;
+}
+.social_btn a:hover {
+  text-decoration: none !important;
 }
 
 /* community section */
