@@ -2,6 +2,10 @@
 body {
   font-family: "Marcellus SC", serif !important;
 }
+
+.logo_img {
+  width: 650px;
+}
 .banner_content {
   z-index: 9999999;
   text-align: left;
@@ -127,9 +131,19 @@ body {
   text-transform: uppercase;
   width: fit-content;
 }
+.main_logo {
+  width: 150px;
+}
 @media screen and (max-width: 768px) {
   .separator {
     display: block;
+  }
+  .main_logo {
+    width: 140px;
+  }
+  .logo_img {
+    width: 250px;
+    height: 140px;
   }
   .title {
     font-size: 40px !important;
