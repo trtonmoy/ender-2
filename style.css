@@ -3,6 +3,17 @@ body {
   font-family: "Marcellus SC", serif !important;
 }
 
+@font-face {
+  font-family: "MinecraftFont"; /* Specify your custom font name */
+  src: url("./font/Minecrafter.Alt.ttf") format("woff2"); /* Specify the path to your font file */
+  /* Add additional src properties for different font formats if needed */
+}
+@font-face {
+  font-family: "Krabby"; /* Specify your custom font name */
+  src: url("./font/krabby_patty/Krabby\ Patty.ttf") format("woff2"); /* Specify the path to your font file */
+  /* Add additional src properties for different font formats if needed */
+}
+
 .logo_img {
   width: 650px;
 }
@@ -31,7 +42,7 @@ body {
 
 .banner_content p {
   font-size: 20px;
-  color: #dda53c;
+  color: #e803fc;
   margin: 40px 0;
   width: 98%;
   max-width: 700px;
@@ -43,8 +54,8 @@ body {
 
 .social_btn a {
   text-decoration: none;
-  color: #dda53c;
-  border: 1px solid #dda53c;
+  color: #e803fc;
+  border: 1px solid #e803fc;
   border-radius: 30px;
   padding: 16px 35px;
   display: inline-block;
@@ -60,7 +71,7 @@ body {
 
 .abt_content p {
   font-size: 20px;
-  color: #dda53c;
+  color: #e803fc;
   margin: 40px 0;
   width: 98%;
   max-width: 700px;
@@ -72,8 +83,8 @@ body {
 
 .social_btn a {
   text-decoration: none;
-  color: #dda53c;
-  border: 1px solid #dda53c;
+  color: #e803fc;
+  border: 1px solid #e803fc;
   border-radius: 30px;
   padding: 16px 35px;
   display: inline-block;
@@ -101,7 +112,7 @@ body {
   display: flex;
   gap: 20px;
   align-items: center;
-  color: #dda53c;
+  color: #e803fc;
   font-family: "Marcellus SC", serif;
   font-size: 22px;
 }
@@ -119,15 +130,17 @@ body {
 
 .social_icon a {
   text-decoration: none;
-  color: #dda53c;
+  color: #e803fc;
   font-size: 22px;
   margin: 7px;
 }
 
 .logo_txt {
-  font-size: 90px;
+  font-size: 87px;
   line-height: 35px;
   color: #fff;
+  padding-top: 36px;
+  margin-left: 30px;
   text-transform: uppercase;
   width: fit-content;
 }
@@ -152,7 +165,7 @@ body {
     font-size: 40px !important;
   }
   .logo_txt {
-    font-size: 56px;
+    font-size: 40px;
     line-height: 35px;
     color: #fff;
     text-transform: uppercase;
